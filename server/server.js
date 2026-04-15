@@ -26,6 +26,8 @@ app.use("/api/ai", aiRoutes);
 app.use("/api/goals", goalRoutes);
 app.use("/api/chat", chatRoutes);
 
+app.get("/", (req, res) => res.json({ message: "AI Expense Tracker API is running ✅" }));
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
