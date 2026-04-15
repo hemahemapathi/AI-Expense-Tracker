@@ -6,13 +6,41 @@ A full-stack, AI-powered personal finance management application that helps user
 
 ## 🚀 Live Demo
 
-> Coming soon after deployment
+🔗 [https://expense-tracker-dhanabalan.netlify.app](https://expense-tracker-dhanabalan.netlify.app)
 
 ---
 
 ## 📸 Screenshots
 
-> Dashboard · Expenses · AI Insights · Chat · Goals · Profile
+### 🏠 Dashboard
+<img width="1588" alt="Dashboard" src="https://github.com/user-attachments/assets/d1926339-d68a-4e0e-a672-028b8c22242c" />
+
+### 💰 Expenses
+<img width="1920" alt="Expenses" src="https://github.com/user-attachments/assets/6b0beb93-140a-409f-a761-5fd62203632a" />
+
+### 🤖 AI Insights — Monthly Insights
+<img width="1920" alt="AI Insights - Monthly" src="https://github.com/user-attachments/assets/cf638233-f57a-4b0a-9ccb-58d1df5f1d51" />
+
+### 🤖 AI Insights — Budget Suggestions
+<img width="1920" alt="AI Insights - Budget" src="https://github.com/user-attachments/assets/6e4fa993-ed57-4dad-b4bd-f391fdc031a0" />
+
+### 🤖 AI Insights — Anomaly Detection
+<img width="1920" alt="AI Insights - Anomaly" src="https://github.com/user-attachments/assets/248a5996-5c50-4274-85d2-a733d1797fcb" />
+
+### 💬 Chat
+<img width="1920" alt="Chat" src="https://github.com/user-attachments/assets/360beeb9-4896-4964-928f-d26e40c0029a" />
+
+### 🎯 Goals
+<img width="1920" alt="Goals" src="https://github.com/user-attachments/assets/df3778bb-e2de-493a-a0f7-e4df4b1f0330" />
+
+### 🔐 Login
+<img width="1920" alt="Login" src="https://github.com/user-attachments/assets/6828106f-6556-4ff6-8a08-d2ab0f731446" />
+
+### 📝 Register
+<img width="1920" alt="Register" src="https://github.com/user-attachments/assets/a395e7f3-213f-4292-965a-2125e9f8d686" />
+
+### 👤 Profile
+<img width="1920" alt="Profile" src="https://github.com/user-attachments/assets/90a95989-a92e-46bb-a6bd-cc2348429b40" />
 
 ---
 
@@ -299,7 +327,7 @@ Backend runs on `http://localhost:5000`
 
 | Service | Purpose |
 |---|---|
-| **Vercel** | Frontend hosting |
+| **Netlify** | Frontend hosting |
 | **Render** | Backend hosting |
 | **MongoDB Atlas** | Database hosting |
 
