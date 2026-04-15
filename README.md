@@ -6,7 +6,7 @@ A full-stack, AI-powered personal finance management application that helps user
 
 ## 🚀 Live Demo
 
-🔗 [https://expense-tracker-dhanabalan.netlify.app](https://expense-tracker-dhanabalan.netlify.app)
+🔗 [https://aiexpensetrackerhemapathi.netlify.app](https://aiexpensetrackerhemapathi.netlify.app)
 
 ---
 
