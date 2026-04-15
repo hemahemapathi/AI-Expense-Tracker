@@ -94,7 +94,7 @@
   line-height: 1.4;
 }
 
- */
+ 
 .ai-card {
   background: #fff; border-radius: 16px; border: none;
   border-top: 4px solid var(--accent, #4f46e5);
@@ -113,7 +113,7 @@
 
 .ai-icon-wrap {
   width: 40px; height: 40px; min-width: 40px; border-radius: 12px;
-  background: color-mix(in srgb, var(--accent, #4f46e5) 12%, white);
+  background: #eef2ff;
   color: var(--accent, #4f46e5);
   display: flex; align-items: center; justify-content: center;
 }
