@@ -1,0 +1,68 @@
+.expense-modal-backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.category-btn {
+  background: #fff;
+  border: 1px solid #dee2e6;
+  color: #111827;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.category-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1070;
+  display: flex;
+  align-items: flex-end;
+}
+
+.category-modal {
+  background: #fff;
+  width: 100%;
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+  animation: slideUp 0.2s ease;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+.category-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.category-modal-body {
+  padding: 0.75rem 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.category-option {
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #111827;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.category-option:hover { background: #f3f4f6; }
+
+.category-option.active {
+  background: #eff6ff;
+  color: #2563eb;
+  font-weight: 600;
+}

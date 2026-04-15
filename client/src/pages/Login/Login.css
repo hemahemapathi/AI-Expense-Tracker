@@ -1,0 +1,39 @@
+.login-wrapper {
+  background: white;
+  min-height: 100vh;
+}
+
+.login-card {
+  max-width: 420px;
+  border-radius: 20px;
+  border: none !important;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3) !important;
+}
+
+.login-card .brand-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.login-card .brand-sub {
+  font-size: 0.85rem;
+  color: #6b7280;
+  font-weight: 600;
+}
+
+@media (max-width: 576px) {
+  .login-wrapper { background: #fff; align-items: flex-start !important; }
+  .login-card {
+    min-height: 100vh;
+    border-radius: 0;
+    box-shadow: none !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 1.5rem !important;
+  }
+}

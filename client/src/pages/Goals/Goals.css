@@ -1,0 +1,161 @@
+.goal-card {
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+  padding: 1.25rem;
+  transition: box-shadow 0.15s;
+}
+
+.goal-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+
+.goal-card.completed {
+  border-color: #bbf7d0;
+  background: #f0fdf4;
+}
+
+.goal-emoji {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.goal-amounts {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+}
+
+.goal-saved {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #111827;
+}
+
+.goal-target {
+  font-size: 0.85rem;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.goal-bar-bg {
+  height: 8px;
+  background: #f1f5f9;
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.goal-bar-fill {
+  height: 100%;
+  border-radius: 99px;
+  transition: width 0.5s ease;
+}
+
+.goal-pct {
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.goal-remaining {
+  font-size: 0.78rem;
+  color: #9ca3af;
+  font-weight: 500;
+}
+
+.goal-done-badge {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #16a34a;
+}
+
+.btn-icon-sm {
+  background: none;
+  border: none;
+  color: #9ca3af;
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 6px;
+  transition: all 0.15s;
+}
+
+.btn-icon-sm:hover { background: #fee2e2; color: #dc2626; }
+
+.goal-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 1060;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.goal-modal {
+  background: #fff;
+  border-radius: 14px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+  overflow: hidden;
+}
+
+.goal-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.goal-modal-body { padding: 1.25rem; }
+
+.btn-icon-close {
+  background: none;
+  border: none;
+  color: #9ca3af;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.btn-icon-close:hover { color: #111827; }
+
+.emoji-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.emoji-btn {
+  background: #f9fafb;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 0.3rem 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.emoji-btn:hover { background: #eff6ff; }
+.emoji-btn.active { border-color: #2563eb; background: #eff6ff; }
+
+.goal-card-skeleton {
+  height: 200px;
+  background: #e5e7eb;
+  border-radius: 14px;
+  animation: shimmer 1.4s infinite;
+  position: relative;
+  overflow: hidden;
+}
+
+.goal-card-skeleton::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.6), transparent);
+  animation: shimmer-move 1.4s infinite;
+}
+
+@keyframes shimmer-move {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(100%); }
+}
